@@ -50,14 +50,13 @@ function InfoSection({
                 the entire process automated so that the agent could click on a
                 button to see the attachments they missed to send.
               </Subtitle>
+              
               <TopLine lightTopLine={lightTopLine}>
-                Python - Django in the back and javaScript - React in the front
+                Python - Django Blog
               </TopLine>
               <Heading lightText={lightText}>Local Dukans</Heading>
               <Subtitle lightTextDesc={lightTextDesc}>
-                An online platform for a localtiy to come online. Local shops
-                could be listed in a localit page and they can sell their
-                products online.
+                Django is a high-level Python Web framework that encourages rapid development and clean design. Django Blog is a basic web app where post can be added, modified and deleted.
               </Subtitle>
             </TextWrapper>
           </InfoRow>
