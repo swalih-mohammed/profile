@@ -48,7 +48,7 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/profile" onClick={closeMobileMenu}>
+                <NavLinks to="/" onClick={closeMobileMenu}>
                   Home
                 </NavLinks>
               </NavItem>

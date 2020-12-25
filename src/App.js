@@ -22,7 +22,7 @@ function App() {
       </Helmet>
       <Navbar />
       <Switch>
-        <Route path="/profile" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/work" exact component={Work} />
         <Route path="/education" exact component={Education} />
         <Route path="/certification" exact component={Certification} />
