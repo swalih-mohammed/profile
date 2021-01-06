@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ProjectData } from "../../pages/HomePage/Data";
 import { Container, Button } from "../../globalStyles";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import {
   InfoSec,
   InfoRow,
@@ -37,27 +39,49 @@ function InfoSection({
             {/* <InfoColumn> */}
             <TextWrapper>
               <SectionTitle lightText={lightText}>PROJECTS</SectionTitle>
-              <TopLine lightTopLine={lightTopLine}>
-                Visual Basic for Application (VB Script)
-              </TopLine>
-              <Heading lightText={lightText}>
-                Track Missing Docs - Lean Project
-              </Heading>
-              <Subtitle lightTextDesc={lightTextDesc}>
-                When docs are received on outlook inbox and they are to be sent
-                to a specific department for further review, it is prone to
-                error when it is done manually by an agent. This project made
-                the entire process automated so that the agent could click on a
-                button to see the attachments they missed to send.
-              </Subtitle>
-              
-              <TopLine lightTopLine={lightTopLine}>
-                Python - Django Blog
-              </TopLine>
-              <Heading lightText={lightText}>Local Dukans</Heading>
-              <Subtitle lightTextDesc={lightTextDesc}>
-                Django is a high-level Python Web framework that encourages rapid development and clean design. Django Blog is a basic web app where post can be added, modified and deleted.
-              </Subtitle>
+              {ProjectData.map((data, key) => {
+                return (
+                  <>
+                    <TopLine lightTopLine={lightTopLine}>
+                      {data.topLine}
+                    </TopLine>
+                    <Heading lightText={lightText}>{data.heading}</Heading>
+                    <Subtitle lightTextDesc={lightTextDesc}>
+                      {data.description}
+                    </Subtitle>
+
+                    <Subtitle lightTextDesc={lightTextDesc}>
+                      {data.demo ? (
+                        <>
+                          <span style={{ paddingRight: "10px" }}>
+                            Find a live demo app
+                          </span>
+
+                          <a href={data.demo} target="_blank">
+                            <FaExternalLinkAlt />
+                          </a>
+                        </>
+                      ) : null}
+                      {data.github ? (
+                        <>
+                          <span
+                            style={{
+                              paddingRight: "10px",
+                              paddingLeft: "10px"
+                            }}
+                          >
+                            Find codes in github
+                          </span>
+
+                          <a href={data.github} target="_blank">
+                            <FaGithub />
+                          </a>
+                        </>
+                      ) : null}
+                    </Subtitle>
+                  </>
+                );
+              })}
             </TextWrapper>
           </InfoRow>
         </Container>

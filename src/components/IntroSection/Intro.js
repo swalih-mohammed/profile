@@ -37,16 +37,17 @@ function IntroSection({
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>
-                  Linguist and a computer science enthusiast
+                  Arabic Langauge Expert - Full Stack Web-developer
                 </TopLine>
                 <Heading lightText={lightText}>Swalih Mohammed</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>
                   Traditionally educated in language and linguistics now turning
-                  towards coding and web development, often wondering how
-                  technology could help language learning and teaching and also
-                  exploring the possibilities of Natural Language Processing.
-                  Mainly creating apps with python's django in the backend and
-                  React front-end javascript framework
+                  towards coding and web development. My keen interest also
+                  includes using web-technologies in analysing and processing
+                  human languages with Natural Langauge Processing (NLP)
+                  technologies.I mainly create PWA apps with django (Python
+                  framework) in the back-end and React (javascript framework) in
+                  the front-end.
                 </Subtitle>
               </TextWrapper>
             </InfoColumn>
