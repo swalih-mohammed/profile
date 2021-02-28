@@ -44,9 +44,9 @@ function IntroSection({
                 </TopLine>
                 <Heading lightText={lightText}>Management Trainee</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>
-                  Leading a team of 15 who work in customer service, which
-                  includes maintaining staff (recruiting, selecting, orienting,
-                  and training) , identifying automation opportunity within the
+                  Leading a customer service team of 15, which includes
+                  maintaining staff (recruiting, selecting, orienting, and
+                  training) , identifying automation opportunity within the
                   process to eliminate manual effort and also ensure accuracy,
                   designing, applying and timely reviewing of VB scripts to make
                   sure automations are done accurately and efficiently.
