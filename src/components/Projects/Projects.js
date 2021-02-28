@@ -62,7 +62,7 @@ function InfoSection({
                           </a>
                         </>
                       ) : null}
-                      {data.github ? (
+                      {/* {data.github ? (
                         <>
                           <span
                             style={{
@@ -77,7 +77,7 @@ function InfoSection({
                             <FaGithub />
                           </a>
                         </>
-                      ) : null}
+                      ) : null} */}
                     </Subtitle>
                   </>
                 );

@@ -44,13 +44,12 @@ function IntroSection({
                 </TopLine>
                 <Heading lightText={lightText}>Management Trainee</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>
-                  I got the opportunity to be selected as a management Trainee
-                  in the company and presently handling a team of 15. I feel so
-                  lucky to have been given a team of great positivity which
-                  welcomes all the good initiatives that I take and provide
-                  honest reviews. I have also got tremendous opportunity to
-                  automate a great number of manual tasks with the help of VBA
-                  scripts.
+                  Leading a team of 15 who work in customer service, which
+                  includes maintaining staff (recruiting, selecting, orienting,
+                  and training) , identifying automation opportunity within the
+                  process to eliminate manual effort and also ensure accuracy,
+                  designing, applying and timely reviewing of VB scripts to make
+                  sure automations are done accurately and efficiently.
                 </Subtitle>
                 <TopLine lightTopLine={lightTopLine}>
                   Optum Global Solution, 2016 to 2019
