@@ -40,7 +40,22 @@ function IntroSection({
                   WORK AND EXPERIENCE
                 </SectionTitle>
                 <TopLine lightTopLine={lightTopLine}>
-                  Optum Global Solution, 2019 to present
+                  Optum Global Solution, 2021 to present
+                </TopLine>
+                <Heading lightText={lightText}>Assistant Manager</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>
+                  Leading a claim processing team of 30 members, which includes
+                  Drives the fulfillment of performance metrics, Building and maintaining an effective Team environment,
+                  Build and maintain effective relationships with 
+                  internal leadership and offshore Supervisors, Managers and Directors etc.
+                  Monitor, measure and report Team performance metrics and implement Team incentive programs,
+                  Analyze and identify error trends and opportunities for defect reduction,
+                  Administrative responsibilities as assigned Handles sensitive information appropriately (HIPAA) and acts in a fair and honest manner consistent with the company’s code of conduct,
+                  Identifies trends and issues and recommend solutions.
+
+                </Subtitle>
+                <TopLine lightTopLine={lightTopLine}>
+                  Optum Global Solution, 2019 to 2021
                 </TopLine>
                 <Heading lightText={lightText}>Management Trainee</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>

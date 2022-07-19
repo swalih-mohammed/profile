@@ -71,6 +71,13 @@ export const homeObjSix = {
 };
 
 export const ProjectData = [
+ {
+    topLine: "django - React Native",
+    heading: "Laam Academy - Language learn App",
+    demo: "https://play.google.com/store/apps/details?id=com.sibiyan.laamacademy",
+    github: "https://github.com/sibiyan/ftest",
+    description:
+      "Laam Academy is a application built for language learning and testing management built with dango and React native."},
   {
     topLine: "django - React",
     heading: "Local Dukans; Multi-store ecom platform",
