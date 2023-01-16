@@ -18,7 +18,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Swalih</title>
-        <meta name="swalih" content="Web developing in Arabic Language" />
+        <meta name="swalih" content="Web mobile application develper" />
       </Helmet>
       <Navbar />
       <Switch>
