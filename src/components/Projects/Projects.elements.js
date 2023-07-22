@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const InfoSec = styled.div`
-  color: #fff;
   /* padding: 160px 0; */
   padding: 70px 0px;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#002240")}; 
@@ -14,6 +13,8 @@ export const InfoRow = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  flex-direction: 'row'
+
 `;
 
 export const InfoColumn = styled.div`
@@ -23,6 +24,7 @@ export const InfoColumn = styled.div`
   flex: 1;
   max-width: 90%;
   flex-basis: 90%;
+
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -38,6 +40,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
 
+
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
@@ -47,6 +50,7 @@ export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+  background-color: 'red'
 `;
 
 export const TopLine = styled.div`

@@ -71,53 +71,46 @@ export const homeObjSix = {
 };
 
 export const ProjectData = [
- {
-    topLine: "django - React Native",
-    heading: "Laam Academy - Language learn App",
+  {
+    topLine: "django - React - React Native",
+    heading: "Laam Academy - Language Learning App",
     demo: "https://play.google.com/store/apps/details?id=com.sibiyan.laamacademy",
     github: "https://github.com/sibiyan/ftest",
+    img: require("../../images/laam_app1.png"),
     description:
-      "Laam Academy is a application built for language learning and testing management built with dango and React native."},
-  {
-    topLine: "django - React",
-    heading: "Local Dukans; Multi-store ecom platform",
-    demo: "https://django-react-multi-store-ecom.herokuapp.com/",
-    github: "https://github.com/sibiyan/ftest",
-    description:
-      "Local-Dukans is PWA app which helps shop owners to come online in small villages. The app is built with django in the back-end and React in the front-end. The app is designed in a way that an end-user is needed to login to his account with an address and will be directed to the locality he specified in the address. An end user could order from shops listed in the locality and order delivery is managed by one person. This is created in the context of Covid-19 when there was a need to do shopping of essentials without physical contact"
+      "Laam Academy is an android application built with React Native. It provides a platform to learn languages through video and audio lessons, quezzes and conversations. The backend of the app is built on Djano and MySQL. AWS and GCC are used to generate audios and storing assets. The application is correctly used by 100+ students.The front-end web is created with React JS and intended to bring the same mobile application experience to the web."
   },
+
   {
-    topLine: "Python - web scraping - Beautiful Soup",
-    heading: "Arabic News Agregator",
-    demo: "https://django-web-scraping.herokuapp.com/",
-    github: "https://github.com/sibiyan/django-web-scraping",
+    topLine: "spaCy - flask - React",
+    heading: "NLP Application ",
+    demo: "https://flask-react-nlp-app.onrender.com/",
+    github: "https://github.com/swalih-mohammed/Flask_React_NLP_App",
+    img: require("../../images/nlp_app.png"),
     description:
-      "This app is built with django and Beautiful Soup. I experiment on how to leverage the possibility of web-scraping technology in aggregating news from news sites of one own preference without manually going to the actual sites."
+      "This NLP application is an attempt to  bring the natural language processing experience to the web using flask and react. I have implimented sentance seperator, tagging POS and comparison of sentances."
   },
 
   {
     topLine: "Python - django",
-    heading: "Weather Tracker ",
-    demo: "https://django-city-weather-app.herokuapp.com/",
-    github: "https://github.com/sibiyan/ftest",
+    heading: "Property Listing Application",
+    demo: "https://www.murtazaalirealestate.com/",
+    // github: "https://github.com/sibiyan/django-web-scraping",
+    img: require("../../images/real_estate.png"),
     description:
-      "Weather app is built with django which shows weather of different cities. The functionality of adding cities to the list is also available to end user."
+      "The property web application is built on top of django and react. The web app is buit such that it displays the properties categoriecally and location wise. The property can  be searched and filtered categorically"
   },
 
   {
-    topLine: "React - styled components",
-    heading: "Brochure website for small businesses",
-    demo: "http://www.lakaters.in/",
-    github: "https://github.com/sibiyan/lakaters-react",
+    topLine: "Node - Express- MongoDb",
+    heading: "Blog ",
+    demo: "https://mern-blog-hpgm.onrender.com/",
+    github: "https://github.com/swalih-mohammed/MERN_blog",
+    img: require("../../images/mern_blog.png"),
+
     description:
-      "A very responsive website created with React framework with styled components. This could be used to create apps for small businesses and enterprises."
+      "I mainly work on Django and python. This is an attempt to experiment with a different frame work. This blog is buit with Express and MongoDB. All CRUD functionalities are implimented using React and Express."
   },
-  {
-    topLine: "python - django - wagtail",
-    heading: "Content Management System",
-    demo: "https://django-wagtail-cms.herokuapp.com/",
-    github: "https://github.com/sibiyan/django-wagtail-cms",
-    description:
-      "Knowing how to build a content management system is a very critical tool in a web developer tool box. This website is built with wagtail which is a powerful system which could compete with wordpress in CMS development. Wagtail is the most popular CMS system available in the django ecosystem."
-  }
+
+
 ];

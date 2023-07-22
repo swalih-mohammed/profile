@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.js": "/profile/static/js/main.6ac73672.chunk.js",
-    "main.js.map": "/profile/static/js/main.6ac73672.chunk.js.map",
-    "runtime-main.js": "/profile/static/js/runtime-main.f3126513.js",
-    "runtime-main.js.map": "/profile/static/js/runtime-main.f3126513.js.map",
-    "static/js/2.a29c45f0.chunk.js": "/profile/static/js/2.a29c45f0.chunk.js",
-    "static/js/2.a29c45f0.chunk.js.map": "/profile/static/js/2.a29c45f0.chunk.js.map",
-    "index.html": "/profile/index.html",
-    "precache-manifest.da4212cc2401c77c0e28a95c54f7dc39.js": "/profile/precache-manifest.da4212cc2401c77c0e28a95c54f7dc39.js",
-    "service-worker.js": "/profile/service-worker.js",
-    "static/js/2.a29c45f0.chunk.js.LICENSE.txt": "/profile/static/js/2.a29c45f0.chunk.js.LICENSE.txt",
-    "static/media/profile_3.jpg": "/profile/static/media/profile_3.a65287f0.jpg",
-    "static/media/svg-14.svg": "/profile/static/media/svg-14.729a19b3.svg",
-    "static/media/svg-15.svg": "/profile/static/media/svg-15.51181992.svg",
-    "static/media/svg-16.svg": "/profile/static/media/svg-16.0b3df8a7.svg"
+    "main.js": "/static/js/main.6469c6c8.chunk.js",
+    "main.js.map": "/static/js/main.6469c6c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.edb82d6c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.edb82d6c.js.map",
+    "static/js/2.eca8b71d.chunk.js": "/static/js/2.eca8b71d.chunk.js",
+    "static/js/2.eca8b71d.chunk.js.map": "/static/js/2.eca8b71d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7aa9d0a4a4e578066c2e7ca54c836a5.js": "/precache-manifest.b7aa9d0a4a4e578066c2e7ca54c836a5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.eca8b71d.chunk.js.LICENSE.txt": "/static/js/2.eca8b71d.chunk.js.LICENSE.txt",
+    "static/media/laam_app1.png": "/static/media/laam_app1.d71efe41.png",
+    "static/media/mern_blog.png": "/static/media/mern_blog.4beafb92.png",
+    "static/media/nlp_app.png": "/static/media/nlp_app.072e7805.png",
+    "static/media/profile_3.jpg": "/static/media/profile_3.a65287f0.jpg",
+    "static/media/real_estate.png": "/static/media/real_estate.21e1b60b.png",
+    "static/media/svg-14.svg": "/static/media/svg-14.729a19b3.svg",
+    "static/media/svg-15.svg": "/static/media/svg-15.51181992.svg",
+    "static/media/svg-16.svg": "/static/media/svg-16.0b3df8a7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3126513.js",
-    "static/js/2.a29c45f0.chunk.js",
-    "static/js/main.6ac73672.chunk.js"
+    "static/js/runtime-main.edb82d6c.js",
+    "static/js/2.eca8b71d.chunk.js",
+    "static/js/main.6469c6c8.chunk.js"
   ]
 }

@@ -35,55 +35,49 @@ function InfoSection({
     <>
       <InfoSec lightBg={lightBg}>
         <Container>
-          <InfoRow imgStart={imgStart}>
-            {/* <InfoColumn> */}
-            <TextWrapper>
+          <TextWrapper>
+            <div style={{ justifyContent: "center", display: "flex" }}>
               <SectionTitle lightText={lightText}>PROJECTS</SectionTitle>
-              {ProjectData.map((data, key) => {
-                return (
-                  <>
-                    <TopLine lightTopLine={lightTopLine}>
-                      {data.topLine}
-                    </TopLine>
-                    <Heading lightText={lightText}>{data.heading}</Heading>
-                    <Subtitle lightTextDesc={lightTextDesc}>
-                      {data.description}
-                    </Subtitle>
+            </div>
 
-                    <Subtitle lightTextDesc={lightTextDesc}>
-                      {data.demo ? (
-                        <>
-                          <span style={{ paddingRight: "10px" }}>
-                            Find a live demo app
-                          </span>
+            {ProjectData.map((data, key) => {
+              return (
+                <>
+                  <InfoRow >
+                    <ImgWrapper start={start}>
+                      <Img src={data.img} alt={alt} />
+                    </ImgWrapper>
+                    <div>
+                      <TopLine lightTopLine={lightTopLine}>
+                        {data.topLine}
+                      </TopLine>
+                      <Heading lightText={lightText}>{data.heading}</Heading>
+                      <Subtitle lightTextDesc={lightTextDesc}>
+                        {data.description}
+                      </Subtitle>
 
-                          <a href={data.demo} target="_blank">
-                            <FaExternalLinkAlt />
-                          </a>
-                        </>
-                      ) : null}
-                      {/* {data.github ? (
-                        <>
-                          <span
-                            style={{
-                              paddingRight: "10px",
-                              paddingLeft: "10px"
-                            }}
-                          >
-                            Find codes in github
-                          </span>
+                      <Subtitle lightTextDesc={lightTextDesc}>
+                        {data.demo ? (
+                          <>
+                            <span style={{ paddingRight: "10px" }}>
+                              Find a live demo app
+                            </span>
 
-                          <a href={data.github} target="_blank">
-                            <FaGithub />
-                          </a>
-                        </>
-                      ) : null} */}
-                    </Subtitle>
-                  </>
-                );
-              })}
-            </TextWrapper>
-          </InfoRow>
+                            <a href={data.demo} target="_blank">
+                              <FaExternalLinkAlt />
+                            </a>
+                          </>
+                        ) : null}
+
+                      </Subtitle>
+                    </div>
+                  </InfoRow>
+
+                </>
+              );
+            })}
+          </TextWrapper>
+          {/* </InfoRow> */}
         </Container>
       </InfoSec>
     </>
