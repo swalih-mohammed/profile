@@ -38,17 +38,17 @@ function InfoSection({
               <TextWrapper>
                 <SectionTitle lightText={lightText}>EDUCATION</SectionTitle>
                 <TopLine lightTopLine={lightTopLine}>
-                  The English And Foreing languages University, 2016 to 2019
+                  The English And Foreing languages University, 2016 to 2018
                 </TopLine>
                 <Heading lightText={lightText}>
                   Ph.D In Arabic Linguistics
                 </Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>
-                  Towards designing a curriculum which focus more on developing
-                  communication skill rather than understanding classical texts
+                  Towards designing a curriculum which focuses more on developing
+                  communication skills rather than understanding classical texts
                 </Subtitle>
-                <TopLine lightTopLine={lightTopLine}>
-                  The English And Foreing languages University, 2016 to 2019
+                {/* <TopLine lightTopLine={lightTopLine}>
+                  The English And Foreing languages University, 2016 to 2018
                 </TopLine>
                 <Heading lightText={lightText}>
                   M.Phil in Arabic Linguistics
@@ -59,7 +59,7 @@ function InfoSection({
                 </Subtitle>
                 <TopLine lightTopLine={lightTopLine}>
                   The English And Foreing languages University, 2016 to 2019
-                </TopLine>
+                </TopLine> */}
                 <Heading lightText={lightText}>
                   MA in Arabic Language and Literature
                 </Heading>
